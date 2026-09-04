@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>E-commerce product page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Saira:ital,wdth,wght@0,125,100..900;1,125,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+
+ 
+
+</head>
+<body>
+
+  <div class="container">
+
+  <section class="new-section">
+      <div class="header-bar">
+        
+        <nav class="navbar">
+
+          <div class="dropdown-icon">
+
+            <a href="#"><img class="dropdown-icon" src="./images/dropdown_icon.png" alt="menu icon"></a>
+
+          </div>
+
+          <div class="logo">
+            
+          <a href="#"><img class="logo-img" src="./images/logo.svg" alt="Company logo" ></a>
+
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="">Collections</a></li>
+            <li><a href="">Men</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-images">
+        <a href="#"><img src="./images/icon-cart.svg" alt="cart img" class="img-left"></a>
+
+        <a href="#"><img src="./images/image-avatar.png" alt="User avatar" class="img-right"></a>
+        </div>
+
+      </div>
+    <hr class="header-divider" aria-hidden="true">
+  </section>
+  
+  <section class="hero-section">
+      <div class="hero" role="region" aria-label="Product hero">
+        <div class="hero-media">
+          <img src="./images/image-product-1.jpg" alt="Main product image" class="hero-main-img">
+
+          <div class="thumbnails" aria-hidden="false">
+            <button class="thumb-prod"><img src="./images/image-product-1-thumbnail.jpg" alt="Thumbnail 1"></button>
+            <button class="thumb-prod"><img src="./images/image-product-2-thumbnail.jpg" alt="Thumbnail 2"></button>
+            <button class="thumb-prod"><img src="./images/image-product-3-thumbnail.jpg" alt="Thumbnail 3"></button>
+            <button class="thumb-prod"><img src="./images/image-product-4-thumbnail.jpg" alt="Thumbnail 4"></button>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="pretitle">Sneaker Company</p>
+          <h1 class="product-title">Fall Limited Edition Sneakers</h1>
+          <p class="product-desc">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+          
+          <div class="price-info">
+            <h2 class="price">$125.00</h2> 
+            <h3 class="price-discount">50%</h3>
+          </div>
+          <del class="price-original">$250.00</del>
+          
+          <div class="cart-controls">
+            <div class="tally" role="group" aria-label="Quantity selector">
+              <button class="tally-btn" aria-label="Decrease quantity">
+                <img src="./images/icon-minus.svg" alt="minus">
+              </button>
+              <p class="tally-value">0</p>
+              <button class="tally-btn" aria-label="Increase quantity">
+                <img src="./images/icon-plus.svg" alt="plus">
+              </button>
+            </div>
+
+            <button class="add-cart-btn" type="button" aria-label="Add to cart">
+              <img src="./images/icon-cart.svg" alt="cart" class="cart-icon">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Vanceti Carmona</a>
+  </div>
+</body>
+</html>
